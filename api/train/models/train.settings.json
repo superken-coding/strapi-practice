@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trains",
+  "info": {
+    "name": "train",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fromStation": {
+      "type": "string"
+    },
+    "toStation": {
+      "type": "string"
+    },
+    "fromDate": {
+      "type": "string"
+    },
+    "fromTime": {
+      "type": "string"
+    },
+    "toDate": {
+      "type": "string"
+    },
+    "toTime": {
+      "type": "string"
+    },
+    "trainNo": {
+      "type": "string"
+    },
+    "seats": {
+      "type": "json"
+    },
+    "duration": {
+      "type": "integer"
+    }
+  }
+}

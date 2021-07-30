@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stations",
+  "info": {
+    "name": "Station",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cityId": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "py": {
+      "type": "string"
+    }
+  }
+}
